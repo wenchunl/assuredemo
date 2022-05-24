@@ -7,7 +7,7 @@ This demo project built by eclipse 2022-03 (4.23.0) + junit + spring boot + rest
 
 2. New a spring boot starter project from the wizard. ![image](https://user-images.githubusercontent.com/66583485/169986886-fba711e9-6c3a-47e0-a598-59feaa8fca97.png)
 3. Create the controller class (Which is the AUT(application under test)) 
-<code>
+
 @GetMapping(value = "/lotto")
 	public @ResponseBody void lotto(HttpServletRequest request, HttpServletResponse response) {
 		Winner win1 = new Winner();
@@ -46,7 +46,7 @@ This demo project built by eclipse 2022-03 (4.23.0) + junit + spring boot + rest
 		}
 
 	}
-</code>
+
 
 4. Write the test method as the following: 
 ![image](https://user-images.githubusercontent.com/66583485/169987650-381fb8d3-4fc3-4abc-b5e0-650b0f57cd1c.png)
